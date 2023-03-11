@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+/* 
+    Mobile – 360 x 640; 375 x 667; 360 x 720.
+    Tablet – 768 x 1024.
+    iPhone – 375 x 812.
+    Laptop – 1366 x 768.
+    Desktop or high-resolution laptop – 1920 x 1080.
+*/
+
+@media screen and (min-width: 768px) and (max-width: 1366px){
+    body {
+        background: linear-gradient(to bottom, #5f2c82, #49a09d);
+    }
+
+    section#login {
+        width: 80%;
+    }
+
+    section#login > div#imagem {
+        width: 30%;
+        height: 100%;
+        float: left;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    body {
+        background: linear-gradient(to bottom, #5f2c82, #49a09d);
+    }
+    
+    section#login {
+        width: 950px;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 50%;
+    }
+}
